@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+ 
+<project name="AMP" default="jar" basedir=".">
+ 
+<property name="src.dir" location="src" />
+<property name="bin.dir" location="bin" />
+<property name="project.name" value="AMP" />
+ 
+<target name="clean">
+<delete dir="${bin.dir}" />
+</target>
+ 
+<target name="makedir">
+<mkdir dir="${bin.dir}" />
+<mkdir dir="${bin.dir}/classes" />
+</target>
+ 
+<target name="compile" depends="clean,makedir">
+<javac srcdir="${src.dir}" destdir="${bin.dir}/classes"/>
+</target>
+ 
+<target name="jar" depends="compile">
+<jar destfile="${bin.dir}/jar/${project.name}.jar" basedir="${bin.dir}/classes">
+<manifest>
+<attribute name="Main-Class" value="amp.Main"/>
+</manifest>
+</jar>	
+</target>
+ 
+<target name="run">
+<java jar="bin/jar/${project.name}.jar" fork="true"/>
+</target>	
+</project>
