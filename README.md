@@ -4,9 +4,9 @@ Instructions for compiling and running AMP simulator:
 
 1. Install Apache Ant tool, if you don't have it already on your system.
 
-On Ubuntu systems, Install Ant by opening a terminal and typing : sudo apt-get install ant
+  On Ubuntu systems, Install Ant by opening a terminal and typing : sudo apt-get install ant
 
-For Installing Ant on other versions of Linux, Windows or Mac systems please refer to the Install instructions on the official Ant website , found here: https://ant.apache.org/manual/install.html
+  For Installing Ant on other versions of Linux, Windows or Mac systems please refer to the Install instructions on   the official Ant website , found here: https://ant.apache.org/manual/install.html
 
 2. On a terminal 'cd' to the folder containing this 'readme' file. It should also contain a 'src' folder and a 'build.xml' file.
 
