@@ -1,5 +1,9 @@
 # AMP-IP_Simulator
 
+The AMP simulator was developed as part of my masters thesis work in Aalto Univeristy.
+Thesis title: "Modeling and Simulation of Autonomous Intersection Management protocols".
+The thesis document can be found above. 
+
 Instructions for compiling and running AMP simulator:
 
 1. Install Apache Ant tool, if you don't have it already on your system.
@@ -30,5 +34,5 @@ For showing log messages from a certain vehicle , on a terminal 'cd' into the fo
 Instructions for using the simulator while it is running:
 1. You can zoom in or out by using the mouse scroll 
 2. You can watch the simulation in slow motion by holding the shift key on your keyboard.
-For further instructions on controlling simulator views and controls please refere to Simulation control section (section 5) in AIM siulator user guide , found here: http://www.cs.utexas.edu/~aim/aim4sim/aim4-release-1.0.3/aim4-root/docs/user.html 
+For further instructions on controlling simulator views and controls please refere to Simulation control section (section 5) in AIM simulator user guide , found here: http://www.cs.utexas.edu/~aim/aim4sim/aim4-release-1.0.3/aim4-root/docs/user.html 
 
